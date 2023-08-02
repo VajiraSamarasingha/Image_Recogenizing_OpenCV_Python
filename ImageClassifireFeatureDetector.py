@@ -50,6 +50,7 @@ def findID(img, desList, thres=15):
 
 desList = findDes(images)
 print(len(desList))
+#Make Cap Read
 
 cap = cv2.VideoCapture(0)
 
