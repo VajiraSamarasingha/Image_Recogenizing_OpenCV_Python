@@ -53,6 +53,7 @@ print(len(desList))
 
 cap = cv2.VideoCapture(0)
 
+#add  While loop as infinite loop
 while True:
     success, img2 = cap.read()
     imgOriginal = img2.copy()
